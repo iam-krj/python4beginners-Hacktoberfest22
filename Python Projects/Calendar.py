@@ -4,8 +4,8 @@ while 1>0:
     # Calendar is an built-in python Module
     
     # Next two lines take input of the year and month from the user.
-    yyyy = int(input("Enter Year: "))
-    mm = int(input("Enter Month: "))
+    yyyy = int(input("Enter the Year: "))
+    mm = int(input("Enter the Month: "))
     
     # Now, we will check whether the inputs are integers and the Month input is between 1 and 12.
     if isinstance(yyyy, int) and isinstance(mm, int):
