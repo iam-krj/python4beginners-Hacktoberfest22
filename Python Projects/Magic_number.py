@@ -1,6 +1,6 @@
 import math
 
-num = int(input("Enter a Number \n"))
+num = int(input("Enter a new Number \n"))
 digitCount = int(math.log10(num))+1
 sumOfDigits = 0
 
